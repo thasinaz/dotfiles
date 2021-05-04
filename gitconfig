@@ -1,0 +1,9 @@
+[user]
+	email = 76603398+thasinaz@users.noreply.github.com
+	name = Thaz
+[credential]
+	helper = cache
+[core]
+	editor = vim
+[alias]
+	graph = log --all --graph --decorate --oneline
