@@ -116,7 +116,9 @@ fi
 set -o vi
 
 # enable autojump
-. /usr/share/autojump/autojump.sh
+if [ -e /usr/share/autojump/autojump.sh ]; then
+    . /usr/share/autojump/autojump.sh
+fi
 
 # rust setup
 if [ -e "$HOME/.cargo/env" ]; then
