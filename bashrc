@@ -115,6 +115,9 @@ fi
 # enable vi style line editing
 set -o vi
 
+# setup WSL default Windows Home directory
+WHOME=/mnt/c/Users/thasinaz
+
 # enable autojump
 if [ -e /usr/share/autojump/autojump.sh ]; then
     . /usr/share/autojump/autojump.sh
