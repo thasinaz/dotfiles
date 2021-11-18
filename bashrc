@@ -127,3 +127,6 @@ fi
 if [ -e "$HOME/.cargo/env" ]; then
     . "$HOME/.cargo/env"
 fi
+
+# make cmake generate compiler_commands.json each time for language server
+alias cmake="cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1"
