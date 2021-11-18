@@ -83,3 +83,6 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 set ts=2
 set expandtab
 set autoindent
+
+" Using utf-8 encoding
+:set encoding=utf-8
